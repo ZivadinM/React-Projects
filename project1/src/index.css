@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    font-family: monospace;
+}
+body{
+    background-color: #282D35;
+}
+.pic{
+    width: 100vw;
+}
+.container{
+    width: 100vw;
+}
+.info h1,h3,h6{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.info h1{
+    color: white;
+}
+.info h3{
+    color: purple;
+}
+.info h6{
+    color: gray;
+}
+.buttons{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.buttons a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 0 20px;
+    align-items: center;
+}
+.button img{
+    width: 15%;
+    margin-right: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.blue{
+    background-color: #61DAFB;
+    border-color: #61DAFB;
+    color: white;
+}
+.about{
+    margin: 0 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+.about h2{
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #21222A;
+    height: 60px;
+}
+footer img{
+    width: 25px;
+}
+@media screen and (min-width:600px) {
+    .container{
+        width: 500px;
+        margin:auto;
+    }
+    .pic{
+        width: 100%;
+    }
+}

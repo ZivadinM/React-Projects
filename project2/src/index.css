@@ -1,0 +1,90 @@
+:root{
+  --contt:"Ides";
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav img{
+  width: 150px;
+}
+nav{
+  padding: 20px 0px;
+}
+.container{
+  width: 550px;
+  margin: auto;
+}
+.imgwraper{
+  display: flex;
+align-items: center;
+justify-content:center;
+margin-bottom: 80px;
+}
+.imgwraper img{
+  width: 70px;
+  margin: 5px;
+}
+.imgg{
+  display: flex;
+  flex-direction: column;
+}
+.imgg img{
+  width: 70px;
+}
+.imgg:nth-child(3){
+  margin-bottom: -80px;
+}
+.imgg:nth-child(5){
+  margin-bottom: -100px;
+}
+.online{
+  margin-top: 20px;
+  width: 320px;
+}
+.card--badge{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 90px;
+  border-radius: 4px;
+  border: solid 0px white;
+  background-color: white;
+  position:absolute;
+  left: 10px;
+  top: 10px;
+}
+.card2{
+  position: relative;
+  max-width: 176px;
+}
+p span{
+  font-weight:600 ;
+}
+.cardwarp{
+  display: flex;
+  align-items: center;
+}
+.cardwarp img{
+  width: 20px;
+  margin-right: 10px;
+
+}
+.card span{
+  margin-right: 3px;
+
+}
+.cardswraper{
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.d{
+width: 170px;
+border-radius: 10px ;
+}
