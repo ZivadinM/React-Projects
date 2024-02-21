@@ -34,5 +34,5 @@ export default [
             to:"30 Jun,2024"
         },
         description: "El Castillo (Spanish pronunciation: [el kas'tiʎo], Spanish for 'the castle'), also known as the Temple of Kukulcan is a Mesoamerican step-pyramid that dominates the center of the Chichen Itza archaeological site in the Mexican state of Yucatán."
-    },
+    }
 ]
