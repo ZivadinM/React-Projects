@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-size: 20px;
+    width: 800px;
+    margin: auto;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    color: #2B283A;
+border-bottom: solid 1px #21222a4b;
+}
+.dark{
+    background-color: #21222A;
+}
+nav img{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+    padding-bottom:30px ;
+    color: #2B283A;
+}
+ul{
+list-style:none;
+}
+.dark h1{
+    color: white;
+}
+.dark li{
+    color: white;
+}
+li{
+    padding-bottom: 10px;
+    color: #2B283A;
+}
+li::before{
+    content: "•";
+    color: aqua;
+    margin-right: 10px;
+    font-size: 30px;
+}
+main{
+    padding-top: 30px;
+    padding-left: 40px;
+    background-color: #FFFFFF;
+    padding-bottom: 40px;
+    background-image: url(./assets/library.png) ;
+    background-position-x: right;
+    background-position-y:center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+nav.dark .toggler--slider {
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav.dark .toggler--slider--circle {
+    background-color: black;
+}
+
+.toggler--light {
+    color: #2B283A;
+}
+
+nav.dark .toggler--light {
+    color: #918E9B;
+}
+
+.toggler--dark {
+    color: #D5D4D8;
+}
+
+nav.dark .toggler-dark {
+    color: #FFFFFF;
+}
+
+nav.dark .toggler--slider {
+    justify-content: flex-end;
+}
